@@ -1,0 +1,137 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+.container {
+    padding: 58px;
+    width: 16rem;
+    border: 15px solid #e7e7e7;
+    border-radius: 1px;
+}
+h1 {
+    font-size: 21px;
+    font-weight: 400;
+    position: relative;
+    top: -61px;
+    right: 51px;
+    margin-bottom: -1rem;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: -1rem;
+    position: relative;
+    top: -50px;
+    right: -29px;
+    float: right;
+}
+.caption {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: right;
+    position: relative;
+    top: -55px;
+    right: -40px;
+    margin: 0;
+}
+.description {
+    font-size: 15px;
+    color: #606060;
+    margin-top: -7rem;
+    position: relative;
+    top: 59px;
+    right: 51px;
+    line-height: 1.3rem;
+}
+label {
+    font-weight: 500;
+    color: #606060;
+    position: relative;
+    top: 40px;
+    font-size: 16px;
+    right: -3px;
+}
+
+#languageSelect {
+    border: 1px solid #ddd;
+    box-shadow: 0 0 4px rgba(226, 226, 226, 0.25);
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+
+#languageSelect option:hover {
+    background-color: #f2f2f2;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid #FF5722;
+    width: 98%;
+    padding: 9px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    margin-top: -1rem;
+}
+
+select:hover {
+    transform: scale(1.1);
+}
+
+select:focus {
+    box-shadow: 0 0 5px #FF5722;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF5722;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ECECEC;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+    select:hover {
+        transform: scale(1);
+    }
+    select:focus {
+        box-shadow: none;
+    }
+}
+
+option {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+option:selected {
+    background-color: #FF5722;
+    color: #fff;
+}
+
+option:hover {
+    background-color: #f2f2f2;
+}
+
+#writingPadTextarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+}
