@@ -32,12 +32,6 @@ The extension allows you to configure the target language for transliteration. F
 2. Choose your preferred language from the options.
 3. Save your changes.
 
-## Screenshots
-
-![new commit](./images/slide0.png)
-
-
-
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvement, feel free to open an issue or submit a pull request.
